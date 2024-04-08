@@ -23,7 +23,7 @@ const Layout = () => {
   });
 
   const client = new ApolloClient({
-    uri: "http://localhost:5000/graphql",
+    uri: "https://project-mgt-api.onrender.com/graphql",
     cache,
   });
   return (
